@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
