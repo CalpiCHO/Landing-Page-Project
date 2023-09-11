@@ -75,8 +75,9 @@ li {
     vertical-align: center;
 }
 
-a:visited {
+a {
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .monke {
@@ -111,9 +112,8 @@ a:visited {
 .body3 {
     background-color: #E5E7EB;
     display:flex;
-    flex:1;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
 }
 
 .quote {
@@ -121,6 +121,7 @@ a:visited {
     font-style: italic;
     color: #1F2937;
     padding: 200px;
+    width: 800px;
 }
 
 .title2 {
